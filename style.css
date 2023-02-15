@@ -1,0 +1,46 @@
+.partone {
+    display:flex;
+    
+}
+
+.biosection {
+    display: flex;
+    align-items: center;
+}
+
+.bio {
+    display:flex;
+    flex-direction: column;
+    margin-right: auto;
+
+}
+
+.biopic {
+    margin-left:auto;
+}
+
+.header {
+    margin-right: auto;
+}
+
+.headlinks {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    gap: 8px;
+}
+
+.parttwo {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
