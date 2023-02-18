@@ -1,30 +1,88 @@
 .partone {
     display:flex;
+    color: aliceblue;
+    flex-shrink: 1;
+    min-width: 0;
     
+
+    
+}
+
+
+.hero {
+    color: aliceblue;
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    margin-right:300px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .biosection {
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    justify-content: center;
+    flex-shrink: 2;
+    min-width: 0;
+   
+    
 }
 
 .bio {
     display:flex;
     flex-direction: column;
     margin-right: auto;
+    margin-left: 300px;
+    margin-bottom:140px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    flex-shrink:0.5;
 
+    color: rgb(189, 194, 196);
+
+}
+
+.signup {
+    width:140px;
+    height:50px;
+    background-color: purple;
+    color:aliceblue;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 14px;
+    border-style: solid;
+    border-color: transparent;
+   
 }
 
 .biopic {
     margin-left:auto;
+    margin-right: 300px;
+    margin-top: 80px;
+    margin-bottom: 140px;
+   
 }
 
 .header {
     margin-right: auto;
+    margin-left: 180px;
+    font-size:28px;
+    font-color: aliceblue;
 }
+
+
 
 .headlinks {
     margin-left: auto;
+    margin-right: 180px;
+    font-size: 18px;
+    color: rgb(189, 194, 196);
+    min-width: 0;
 }
 
 ul {
@@ -37,10 +95,104 @@ ul {
 
 .parttwo {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
+    gap: 82px;
+}
+
+.parttwo p {
+    max-width: 200px;
 }
 
 h2 {
     text-align: center;
+}
+
+.firstblock {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(32, 32, 80);
+    min-width: 0;
+    min-height: 0;
+    flex: 0 1 0;
+    
+}
+
+.partthree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:12px;
+    background-color: lightblue;
+    flex-wrap: wrap;
+    margin-top:40px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+   
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    text-align: left;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left:64px;
+    margin-top:14px;
+    margin-bottom: 14px;
+    
+    
+}
+
+.actionhead {
+    text-align: left;
+    
+    margin-bottom: 4px;
+    margin-right: auto;
+}
+
+.actionpara {
+    max-width: 900px;
+    
+    text-align: left;
+    
+}
+
+.quote {
+    font-style: italic;
+    font-size: 44px;
+}
+
+.speaker {
+    font-weight: bold;
+    font-size: 38px;
+    text-align: right;
+    margin-right:260px;
+}
+
+.actionbutton {
+    margin-left: auto;
+    border-radius: 12px;
+    margin-right: 64px;
+    border-color: aliceblue;
+    background-color:transparent;
+    color:aliceblue;
+    font-size: 24px;
+    padding: 10px;
+    padding-right: 24px;
+    padding-left:24px;
+}
+
+.partfour {
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.copyright {
+    text-align:center;
 }
