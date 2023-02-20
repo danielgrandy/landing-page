@@ -1,11 +1,26 @@
+* {
+    flex: 0 1 auto;
+    
+}
+
 .partone {
     display:flex;
     color: aliceblue;
     flex-shrink: 1;
     min-width: 0;
+    justify-content: center;
+    
     
 
     
+}
+
+.babyhero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: fit-content;
 }
 
 
@@ -14,37 +29,96 @@
     font-size: 52px;
     font-weight: bold;
     margin-bottom: 20px;
+    width: fit-content;
+    min-width: 0;
+    
+    
 }
 
+
+
+
 .subtext {
-    margin-right:300px;
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 18px;
+    max-width: 400px;
+    
 }
 
 .biosection {
     display: flex;
-    align-items: stretch;
+    
+    align-items: center;
     justify-content: center;
-    flex-shrink: 2;
-    min-width: 0;
+   text-align: left;
+    
+    flex-wrap: wrap;
+    
    
+   
+    
+}
+
+.babybio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    align-items: flex-start;
+    text-align: left;
+    flex-basis: 0;
     
 }
 
 .bio {
     display:flex;
     flex-direction: column;
+    flex-basis: auto;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    
     margin-right: auto;
-    margin-left: 300px;
+    margin-left: auto;
     margin-bottom:140px;
     margin-top: 80px;
-    flex-wrap: wrap;
-    flex-shrink:0.5;
+    max-width: 100%;
+    min-width: min-content;
+    
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-basis: auto;
 
     color: rgb(189, 194, 196);
 
+}
+
+
+
+.biopicdivvy {
+    display:flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 140px;
+   
+    padding-right: 60px;
+    padding-left: 60px;
+    
+   
+}
+
+.biopic {
+    
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+    
+   
+   
 }
 
 .signup {
@@ -60,19 +134,12 @@
    
 }
 
-.biopic {
-    margin-left:auto;
-    margin-right: 300px;
-    margin-top: 80px;
-    margin-bottom: 140px;
-   
-}
-
 .header {
     margin-right: auto;
     margin-left: 180px;
+    padding-right: 20px;
     font-size:28px;
-    font-color: aliceblue;
+    color: aliceblue;
 }
 
 
@@ -80,9 +147,10 @@
 .headlinks {
     margin-left: auto;
     margin-right: 180px;
+    padding-left: 20px;
     font-size: 18px;
     color: rgb(189, 194, 196);
-    min-width: 0;
+    
 }
 
 ul {
@@ -98,6 +166,7 @@ ul {
     justify-content: center;
     text-align: center;
     gap: 82px;
+    flex-wrap:wrap;
 }
 
 .parttwo p {
@@ -129,6 +198,7 @@ h2 {
     max-width: 1000px;
     margin-left: auto;
     margin-right:auto;
+    padding: 40px;
    
 }
 
@@ -164,6 +234,8 @@ h2 {
 .quote {
     font-style: italic;
     font-size: 44px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .speaker {
@@ -186,13 +258,27 @@ h2 {
     padding-left:24px;
 }
 
+.actionbuttondivvy {
+    padding: 10px;
+}
+
 .partfour {
     text-align: center;
     background-color: lightgray;
     padding-top: 100px;
     padding-bottom: 100px;
+    
 }
 
 .copyright {
     text-align:center;
+}
+
+.partfive {
+    background-color: rgb(32, 32, 80);
+    color: aliceblue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    margin-top: 40px;
 }
